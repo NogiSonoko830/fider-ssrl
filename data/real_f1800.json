@@ -1,0 +1,48 @@
+{
+  "case": {
+    "key": "f1800__refit_nuisance__core_joint__jw01027004001_02103_00003_mirimage__shared_old",
+    "band": "f1800",
+    "mode": "refit_nuisance",
+    "branch": "core_joint",
+    "input": "jw01027004001_02103_00003_mirimage",
+    "visit": "01027004001",
+    "role": "evaluation",
+    "psf": "shared_old",
+    "psf_key": "f1800__core_joint__shared_old",
+    "C": 479.71173095703125,
+    "b": 82215.94746728548,
+    "Fc": 2584872.858955164,
+    "beta": 0.03180657307087751,
+    "xc": 55.005745531682216,
+    "yc": 54.52049844649616,
+    "score_xc": 55.00435611057406,
+    "score_yc": 54.52319817018642,
+    "flux": 5557.696745943296,
+    "residual_sky_plane": [
+      -0.021141536594205472,
+      0.0001723258482848346,
+      0.00012596723370432124
+    ],
+    "relative_b_change": -0.014978312181808229,
+    "fit_center_shift": 0.003036280457982028,
+    "raw_CAL_sha256": "a26a310ac2247469a5569e0f841019e6e4eea81891e501088c246ea3bf04552c"
+  },
+  "units": "source/coadd/outputs: MJy/sr; b/Fc: effective counts; valid/common_mask: bool",
+  "array_axes": "expected_outputs[RL,SSRL*][Raw,FiDeR][y,x]; expected_references[RL,SSRL*][y,x]",
+  "reference_ids": [
+    [
+      "jw01027008001_02103_00003_mirimage",
+      "jw01027008001_02103_00004_mirimage",
+      "jw01028007001_02103_00003_mirimage",
+      "jw01028007001_02103_00004_mirimage"
+    ],
+    [
+      "jw01027008001_02103_00003_mirimage",
+      "jw01028007001_02103_00003_mirimage"
+    ],
+    [
+      "jw01027008001_02103_00004_mirimage",
+      "jw01028007001_02103_00004_mirimage"
+    ]
+  ]
+}

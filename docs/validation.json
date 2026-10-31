@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "seconds": 21.562000000000126,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "tolerance_relative_max": 1e-10,
+  "checks": {
+    "replay_simulation": [
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "prefilter1000",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "RL/Raw",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "RL/FiDeR",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "RL/noiseless_reference",
+        "archived_relative_max": 1.5070619200917466e-15
+      },
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "SSRL/Raw",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "SSRL/FiDeR",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1000W_MC100",
+        "stage": "SSRL/noiseless_reference",
+        "archived_relative_max": 3.343263964736163e-16
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "prefilter1000",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "RL/Raw",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "RL/FiDeR",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "RL/noiseless_reference",
+        "archived_relative_max": 1.690195093583488e-15
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "SSRL/Raw",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "SSRL/FiDeR",
+        "archived_relative_max": 0.0
+      },
+      {
+        "dataset": "F1800W_MC11",
+        "stage": "SSRL/noiseless_reference",
+        "archived_relative_max": 9.328811679088564e-16
+      }
+    ],
+    "replay_real": [
+      {
+        "band": "f1000",
+        "stage": "native_prefilter1000",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1000",
+        "stage": "RL/Raw",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1000",
+        "stage": "RL/FiDeR",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1000",
+        "stage": "RL/coadd_reference",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1000",
+        "stage": "SSRL_masked/Raw",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1000",
+        "stage": "SSRL_masked/FiDeR",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1000",
+        "stage": "SSRL_masked/coadd_reference",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "native_prefilter1000",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "RL/Raw",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "RL/FiDeR",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "RL/coadd_reference",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "SSRL_masked/Raw",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "SSRL_masked/FiDeR",
+        "relative_max": 0.0
+      },
+      {
+        "band": "f1800",
+        "stage": "SSRL_masked/coadd_reference",
+        "relative_max": 0.0
+      }
+    ]
+  },
+  "convention_tests": "3 passed; complete-domain total identity, missing-data invariance, persistent signed freeze/absorbing zero"
+}

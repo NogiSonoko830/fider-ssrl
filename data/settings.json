@@ -1,0 +1,14 @@
+[
+  {
+    "dataset": "F1000W_MC100",
+    "background": 1362062.9709892895,
+    "calibration_flux": 46191903.27012416,
+    "canvas": 225
+  },
+  {
+    "dataset": "F1800W_MC11",
+    "background": 1362062.9709892895,
+    "calibration_flux": 46191903.27012416,
+    "canvas": 225
+  }
+]

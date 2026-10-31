@@ -1,0 +1,200 @@
+[
+  {
+    "source": "scripts/miri_f1000w_mc.py",
+    "source_sha256": "26cc67cdfcde14a55ba3ed6d867218c8f17820db075d3531c55c1930cdabbab6",
+    "function": "embed",
+    "lines": [
+      26,
+      28
+    ],
+    "function_ast_sha256": "eaf3cc95505ecb03e1e3ea6c67adf14e7829f171e1a5322fb7f7191e6282e536",
+    "release_file": "fider_ssrl/simulation_rl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_f1000w_mc.py",
+    "source_sha256": "26cc67cdfcde14a55ba3ed6d867218c8f17820db075d3531c55c1930cdabbab6",
+    "function": "conv",
+    "lines": [
+      29,
+      29
+    ],
+    "function_ast_sha256": "ea685236b515c42f2b89440c6a3999a6f844aa387ebe6b007bc1260ae44db5a4",
+    "release_file": "fider_ssrl/simulation_rl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_f1000w_mc.py",
+    "source_sha256": "26cc67cdfcde14a55ba3ed6d867218c8f17820db075d3531c55c1930cdabbab6",
+    "function": "otf",
+    "lines": [
+      30,
+      30
+    ],
+    "function_ast_sha256": "fd2181e9f54fab2e0d5accfe2e05dc05ecdb02c4d861200714c2f4598f384edc",
+    "release_file": "fider_ssrl/simulation_rl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_f1000w_mc.py",
+    "source_sha256": "26cc67cdfcde14a55ba3ed6d867218c8f17820db075d3531c55c1930cdabbab6",
+    "function": "update",
+    "lines": [
+      31,
+      33
+    ],
+    "function_ast_sha256": "f45e6bb1d20b0f4b1dbfd2b85582b496e8bd0082dade0ab80fa4588e13f0c43d",
+    "release_file": "fider_ssrl/simulation_rl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_f1000w_mc.py",
+    "source_sha256": "26cc67cdfcde14a55ba3ed6d867218c8f17820db075d3531c55c1930cdabbab6",
+    "function": "deconv",
+    "lines": [
+      34,
+      43
+    ],
+    "function_ast_sha256": "9f9557a25d7369dd61e9a6d3ae04ae9da3cef77f8bf688b89acb6e2793a208ce",
+    "release_file": "fider_ssrl/simulation_rl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_f1000w_pasp_mc.py",
+    "source_sha256": "ee052ac2e82b1aef603bc59eea67503954e8f4d657a73af007540acea38d9f50",
+    "function": "kernels",
+    "lines": [
+      25,
+      32
+    ],
+    "function_ast_sha256": "c8373d9d3be1f3dbedfed2208d39f65247f02abaeaa6b24b57aca36868468647",
+    "release_file": "fider_ssrl/simulation_fider.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_f1000w_pasp_mc.py",
+    "source_sha256": "ee052ac2e82b1aef603bc59eea67503954e8f4d657a73af007540acea38d9f50",
+    "function": "fider",
+    "lines": [
+      34,
+      44
+    ],
+    "function_ast_sha256": "36b98264bf5edbcaada560e293f3f52da58dff70b7ba7efd80676f60a3c25bf7",
+    "release_file": "fider_ssrl/simulation_fider.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_signedx120.py",
+    "source_sha256": "079dc524afc1df3dfe150c18f9eb69831e69fd876b3ec823a49c71efecd7085f",
+    "function": "signed_step",
+    "lines": [
+      16,
+      30
+    ],
+    "function_ast_sha256": "c719e6196b1c60b00d4102beec84adff9862f53b91196230d26fc69954c45205",
+    "release_file": "fider_ssrl/simulation_ssrl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "scripts/miri_signedx120.py",
+    "source_sha256": "079dc524afc1df3dfe150c18f9eb69831e69fd876b3ec823a49c71efecd7085f",
+    "function": "signed_deconv",
+    "lines": [
+      33,
+      53
+    ],
+    "function_ast_sha256": "1c400399a440b206d90800512578a63f601ee6934be14d2a3b2d7653beee9963",
+    "release_file": "fider_ssrl/simulation_ssrl.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "local_work/2026-10-23_real_count_alignment/stage5_original/fider_stage5_20261020/fider_core.py",
+    "source_sha256": "1d482e77e875107853c7676ec86725264eb12f35aae35bc707ece69eedba5042",
+    "release_file": "fider_ssrl/fider_core.py",
+    "byte_identical": true
+  },
+  {
+    "source": "local_work/2026-10-23_real_count_alignment/stage5_original/fider_stage5_20261020/masked_rl.py",
+    "source_sha256": "3527883ae42fdedfae7171c85054664cc539b2b852b16224f83c2ee57167391c",
+    "release_file": "fider_ssrl/masked_rl.py",
+    "byte_identical": true
+  },
+  {
+    "source": "local_work/2026-10-23_real_count_alignment/stage5_original/fider_stage5_20261020/psf_geometry.py",
+    "source_sha256": "fdbbaf6cc4c00e7ff8d63c7c6a9e40218bbdcf6d5fbd5126a694dca6e39d4015",
+    "function": "PSFSampler",
+    "lines": [
+      15,
+      31
+    ],
+    "function_ast_sha256": "4b645bdbca65828eb8f35d57f844444bc5dff306466b47b10dfdd2a8328ebb2b",
+    "release_file": "fider_ssrl/psf_sampling.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "local_work/2026-10-27_mock_transfer_completion/common.py",
+    "source_sha256": "583771ea94dad682f24a63f92752b31dfed7a4e8c1ce9ad699aab60036b4dfe0",
+    "function": "conv",
+    "lines": [
+      32,
+      32
+    ],
+    "function_ast_sha256": "b1885f6fab5f24fa71137bed21992da6e6ce92aa1dd97df1f22c5d658bd34e11",
+    "release_file": "fider_ssrl/masked_backend.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "local_work/2026-10-27_mock_transfer_completion/common.py",
+    "source_sha256": "583771ea94dad682f24a63f92752b31dfed7a4e8c1ce9ad699aab60036b4dfe0",
+    "function": "Fill",
+    "lines": [
+      44,
+      64
+    ],
+    "function_ast_sha256": "f46b88e9f487182cab071295617f24e3f8666b60fb571f1c2be291d7156aead2",
+    "release_file": "fider_ssrl/masked_backend.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "local_work/2026-10-27_mock_transfer_completion/common.py",
+    "source_sha256": "583771ea94dad682f24a63f92752b31dfed7a4e8c1ce9ad699aab60036b4dfe0",
+    "function": "solve",
+    "lines": [
+      91,
+      124
+    ],
+    "function_ast_sha256": "02b009a5a1a3bca0a0379c41c17115b1c4c31dd17f358134cd41288dd100c818",
+    "release_file": "fider_ssrl/masked_backend.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "local_work/2026-10-26_pipeline_psf_stress/run_real.py",
+    "source_sha256": "d5e5ede0e2cc92002761ec7a17c626a60b02de7b34136e4348e80be19bf4da4a",
+    "function": "reconstruct",
+    "lines": [
+      8,
+      18
+    ],
+    "function_ast_sha256": "7740150f8f82516b987c500e76fa26995b6b1e953b46322855afa6e56ed583ab",
+    "release_file": "fider_ssrl/real_fider.py",
+    "numerical_body_unchanged": true
+  },
+  {
+    "source": "local_work/2026-10-23_source_alignment/regression_fixture/fixtures/miri_inputs.npz",
+    "source_sha256": "c66bfc7a0f710b75c8b5bd7dd5d0fc8b9bb7d0bbc0c68193c0a86d3d389fb450",
+    "release_file": "data/miri_inputs.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "local_work/2026-10-23_source_alignment/regression_fixture/fixtures/miri_references.npz",
+    "source_sha256": "1c82c3102489597df1c885ff248639f044081df774e264bcda1594e7d8d92c65",
+    "release_file": "data/miri_references.npz",
+    "byte_identical": true
+  },
+  {
+    "source": "local_work/2026-10-23_source_alignment/regression_fixture/fixtures/settings.json",
+    "source_sha256": "d270ffcc50a0e7dbeecd640f9d2554c85923a74abef7e7e399019778a8f6e5f7",
+    "release_file": "data/settings.json",
+    "byte_identical": true
+  }
+]

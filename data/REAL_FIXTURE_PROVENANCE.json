@@ -1,0 +1,64 @@
+[
+  {
+    "release_file": "data/real_f1000.npz",
+    "release_sha256": "46b9971f3208553e1c05db9ddce8e9334d39c69afd64819410e619a6369fdc74",
+    "sources": [
+      {
+        "path": "local_work/2026-10-26_pipeline_psf_stress/prepared/f1000__refit_nuisance__core_joint__jw01027007001_02105_00003_mirimage__shared_old.npz",
+        "sha256": "d38826bf38c55e24574f4cbcfe30f6728eae89e0d61fe2be03457167a49235ff"
+      },
+      {
+        "path": "local_work/2026-10-26_pipeline_psf_stress/real/f1000__refit_nuisance__core_joint__jw01027007001_02105_00003_mirimage__shared_old.npz",
+        "sha256": "563c51ded0375180ed60b3283e5e6919c5423ae64446b9de47c87297fc2c9414"
+      },
+      {
+        "path": "local_work/2026-10-28_empirical_stack_reference/results/f1000__refit_nuisance__core_joint__jw01027007001_02105_00003_mirimage__shared_old__detector_translation__lanczos3__leave_visit_out.npz",
+        "sha256": "11570f7d7b4eac6c086f82c3607336fea35f3c0c59133f7a22d2b5b4b0911a94"
+      },
+      {
+        "path": "local_work/2026-10-29_coadd_all_methods/results/f1000__refit_nuisance__core_joint__jw01027007001_02105_00003_mirimage__shared_old.npz",
+        "sha256": "3b928c1a24a94c491265097e7ffec20a99764a9ff0d1b97c3f16b583a897174c"
+      },
+      {
+        "path": "local_work/2026-10-26_pipeline_psf_stress/psfs.npz",
+        "sha256": "17cdd434ad4f6cd9d4464e443f797eab5f3529c9307cd5855c0fb3e017d6c386"
+      }
+    ]
+  },
+  {
+    "release_file": "data/real_f1800.npz",
+    "release_sha256": "a276bd999cf9ed84dbf4b5534d2abad3c2c7c5e3b0151e05b3754247b9a39bbf",
+    "sources": [
+      {
+        "path": "local_work/2026-10-26_pipeline_psf_stress/prepared/f1800__refit_nuisance__core_joint__jw01027004001_02103_00003_mirimage__shared_old.npz",
+        "sha256": "7041dda3a6297266d892592a562e78cc3483c9cb99a742efb6545300fe0815d0"
+      },
+      {
+        "path": "local_work/2026-10-26_pipeline_psf_stress/real/f1800__refit_nuisance__core_joint__jw01027004001_02103_00003_mirimage__shared_old.npz",
+        "sha256": "4ae1d3068893ef2bf345abf9032af605fad4bfe7e322cf75f70510d764f0a343"
+      },
+      {
+        "path": "local_work/2026-10-28_empirical_stack_reference/results/f1800__refit_nuisance__core_joint__jw01027004001_02103_00003_mirimage__shared_old__detector_translation__lanczos3__leave_visit_out.npz",
+        "sha256": "da8cd3f9460e873052971f102d27d9da0b33eb4f2371045941fb0d98e72e242f"
+      },
+      {
+        "path": "local_work/2026-10-29_coadd_all_methods/results/f1800__refit_nuisance__core_joint__jw01027004001_02103_00003_mirimage__shared_old.npz",
+        "sha256": "a1f07b8a3551e3a43a1342c391f42b5db6281804df0321ca7e21cb7c54703888"
+      },
+      {
+        "path": "local_work/2026-10-26_pipeline_psf_stress/psfs.npz",
+        "sha256": "17cdd434ad4f6cd9d4464e443f797eab5f3529c9307cd5855c0fb3e017d6c386"
+      }
+    ]
+  },
+  {
+    "release_file": "data/simulation_expected.npz",
+    "release_sha256": "8cdfefad89855fde7cba618ab45288e6e89fb0b318476b39db984746368b803d",
+    "sources": [
+      {
+        "path": "local_work/2026-10-23_source_alignment/comparison/intermediate_and_final_arrays.npz",
+        "sha256": "3ef5be36fd7de9dc22bd29c0d4b007f2962566f7b7b4f2e5209c7ea7474c3321"
+      }
+    ]
+  }
+]
